@@ -21,6 +21,7 @@ version: 1.0.0+1
 environment:
   sdk: '>=3.2.1 <4.0.0'
 
+
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
@@ -37,7 +38,14 @@ dependencies:
   cupertino_icons: ^1.0.2
   printing: ^5.11.1
   pdf: ^3.10.7
-
+  path_provider: 2.1.1
+  pdf_render: ^1.4.5
+  flutter_cache_manager: ^3.3.1
+  pdfjs: ^2.12.0
+  advance_pdf_viewer2: ^2.0.5+1
+  google_fonts:
+  syncfusion_flutter_pdfviewer: ^23.2.7
+  text2pdf: ^0.0.2
 
 dev_dependencies:
   flutter_test:
